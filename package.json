@@ -1,0 +1,34 @@
+{
+  "name": "edgeware-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "substrate-exec-tsc",
+    "start": "yarn build && node ./build/index.js"
+  },
+  "resolutions": {
+    "@polkadot/api": "^5.7.1",
+    "@polkadot/api-contract": "^5.7.1",
+    "@polkadot/hw-ledger": "^7.3.1",
+    "@polkadot/keyring": "^7.3.1",
+    "@polkadot/networks": "^7.3.1",
+    "@polkadot/phishing": "^0.6.266",
+    "@polkadot/types": "^5.7.1",
+    "@polkadot/types-known": "^5.7.1",
+    "@polkadot/types-support": "^5.7.1",
+    "@polkadot/util": "^7.3.1",
+    "@polkadot/util-crypto": "^7.3.1",
+    "@polkadot/wasm-crypto": "^4.1.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^5.7.1",
+    "@polkadot/apps-config": "0.95.2-50",
+    "@substrate/dev": "^0.5.5",
+    "typescript": "4.3.5"
+  },
+  "packageManager": "yarn@3.0.1"
+}
